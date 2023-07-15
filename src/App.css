@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --red: #d01c28;
+  --gray: #2e2e2e;
+}
+*{
+    margin: 0;
+}
+.nav{
+
+ display: flex;
+ justify-content: space-between;
+ width: 1250px;
+ margin: auto;
+ align-items: center;
+}
+
+.logo{
+    width: 76px;
+    height: 42.75px;
+    left: 85px;
+    top: 15px;
+    margin-top: 10px;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+ul li:hover{
+  color: cadetblue;
+  cursor: pointer;
+}
+.btn {
+    
+    all: unset;
+     padding: 4px 12px; 
+    background: var(--red);
+     height: 18px; 
+    color: white;
+    font-weight: 500;
+  }
+  .container{
+    margin: auto;
+    width: 1250px;
+    align-items: center;
+    margin-top: 95px;
+    display: flex;
+  }
+  .heading{
+    font-size: 108px;
+    line-height: 102px;
+    font-weight: 800;
+    font-style: normal;
+    
+
+  }
+  .hero-left{
+   display: flex;
+   flex-direction: column;
+  }
+  .hero-right{
+    display: flex;
+    width: 550px;
+    height: 480px;
+  }
+  .hero-left p{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 400px; 
+    margin-top: 20px;
+  
+  }
+  .btn-div{
+    margin-top: 48px;
+    display: flex;
+    gap: 56px;
+  }
+  .btn-cat{
+    font-size: 24px;
+    all: unset;
+    padding: 4px 12px; 
+    height: 18px; 
+   color: white;
+   font-weight: 500;
+   background: transparent;
+   color: var(--gray);
+   border: 1px solid gray;
+   
+  }
+  .btn-cat:hover{
+    background: grey;
+  }
+.img{
+  width: 32px;
+  height: 32px;
+}
+.img-div{
+  display: flex;
+  gap: 20px;
+}
